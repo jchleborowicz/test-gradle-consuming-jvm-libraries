@@ -1,4 +1,6 @@
-apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'Greeter'
 
 repositories {
     jcenter()
@@ -6,4 +8,5 @@ repositories {
 
 dependencies {
     implementation 'com.github.lalyos:jfiglet:0.0.8'
+    implementation 'org.apache.commons:commons-lang3:3.5'
 }
