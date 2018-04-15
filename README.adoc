@@ -1,0 +1,4 @@
+= Consuming JVM libraries with Gradle
+
+Based on tutorial https://guides.gradle.org/consuming-jvm-libraries.
+
